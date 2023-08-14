@@ -1,0 +1,99 @@
+/* #FF671F, white #FFFFFF, India green #046A38, navy blue #06038D. */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+:root {
+    --saffron: #FF671F;
+    --white: #FFFFFF;
+    --green: #046A38;
+    --blue: #06038D;
+}
+
+/* Body styles */
+body{background-color: #87CEEB;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    align-items: baseline;
+    
+
+}
+
+.container .img1 {
+
+    width: 100%;
+    margin-top: 270px;
+    /* opacity: 0.7;  */
+    position: fixed;
+}
+
+.tricolor {
+    z-index: -20;
+    display: flex;
+    margin-top: 50px;
+    /* background-color: aquamarine; */
+    /* flex-direction: column; */
+
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 600px;
+    
+}
+.container .tricolor  img{
+    width: 50px;
+    height: 50px;
+    position:  relative;
+    z-index: 100;
+    top: 68px;
+    left: 110px;
+    /* top: 100px; */
+}
+
+.container .tricolor .stick{
+    width: 20px;
+    background-color: #231501;
+    height: 25rem;
+    color: white;
+    border-radius: 8px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .tricolor .colorStip{
+    /* background-color: var(--white); */
+    position: fixed;
+    /* left: rem; */
+    margin-left: 20px;
+    top: 68px;
+    
+}
+.container .tricolor .colorStip .strip{
+    position: relative;
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 50px;
+    width: 270px;
+}
+.container .tricolor .colorStip .saffron{
+    background-color: var(--saffron);
+}
+.container .tricolor .colorStip .white{
+    background-color: var(--white);
+}
+.container .tricolor .colorStip .green{
+    background-color: var(--green);
+}
+
+
